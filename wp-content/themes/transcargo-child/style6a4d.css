@@ -1,0 +1,39 @@
+/*
+    Theme Name: Transcargo Child Theme
+    Theme URI: http://logistics.stylemixthemes.com/
+    Author: StylemixThemes
+    Author URI: http://stylemixthemes.com/
+    Description: Transcargo is the only best WordPress theme for transportation and logistics business.  Using Transcargo you can easily create a modern website and start promoting your services.
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: blue, red, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
+    Text Domain: transcargo-child-theme
+    Template: transcargo
+*/
+
+/* Add your own styles here */
+
+
+
+
+/*Google Map Api*/
+body .stm_gmap_wrapper .stm_gmap .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div:first-child > div {
+    transform: translate(-50%,-100%) skewX(0) !important;
+}
+.stm_gmap_wrapper .stm_gmap .gm-style .gm-style-iw {
+    margin-top: 0 !important;
+}
+.stm_gmap_wrapper .stm_gmap .gm-style .gm-style-iw-c {
+    padding: 12px !important;
+    background: #183650 !important;
+}
+.stm_gmap_wrapper .stm_gmap .gm-style .gm-style-iw-d {
+    overflow: auto !important;
+}
+.stm_gmap_wrapper .stm_gmap .gm-style .gm-style-iw-t {
+    bottom: 70px !important;
+}
+body .stm_gmap_wrapper .stm_gmap .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div:first-child > div {
+    left: 0 !important;
+}

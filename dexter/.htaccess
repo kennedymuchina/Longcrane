@@ -1,0 +1,4 @@
+<IfModule mod_passenger.c>
+    PassengerEnabled on
+    PassengerPython /home/longuynb/virtualenv/reddit-bot/3.10/bin/python
+</IfModule>
